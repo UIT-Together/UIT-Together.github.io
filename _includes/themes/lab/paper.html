@@ -1,0 +1,170 @@
+<!--
+Branched from Trevor Bedford's source, https://github.com/blab/blotter/blob/master/_layouts/paper.html
+with gratitude.
+-->
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="media">
+			{% if page.image %}
+			<img class="pull-left pad-right media-object paper-image" src="{{ page.image }}">
+			{% endif %}
+		</div>
+	</div>
+
+	<div class="col-md-9">
+		<div class="media-body titlebox">
+			<div class="title media-heading">
+				{{ page.title }}
+			</div>
+			<p>
+			<div class="smallhead">
+				{{ page.authors }}.
+				<span class="journal">
+				{{ page.journal }}
+				</span>
+				{% if page.volume %}
+				{{ page.volume }}
+				{% endif %}
+				{% if page.issue %}
+				({{ page.issue }})
+				{% endif %}
+				{% if page.pages %}
+				:{{ page.pages }}
+				{% endif %}
+				({{ page.year }}).
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="bigspacer"></div>
+        <div class="glyphbox note"> <!-- DAD: what is this class? -->
+            <div class="smallhead subtle">
+                Full text
+            </div>
+
+            <div class="pad-left note">
+                <div class="smallspacer"></div>
+                {% if page.openaccess %}
+                <i class="ai ai-open-access fa-fw"></i>
+                {% else %}
+                <i class="ai ai-doi fa-fw"></i>
+                {% endif %}
+                <a class="off" href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a>
+                <br/>
+                {% if page.arxiv %}
+                <i class="ai ai-arxiv fa-fw"></i>
+                <a class="off" href="{{ page.eprint }}"><code>arXiv:{{ page.arxiv }}</code></a>
+                {% elsif page.eprint %}
+                <i class="ai ai-open-access fa-fw"></i>
+                <a class="off" href="{{ page.eprint }}">{{ page.eprint }}</a>
+                {% endif %}
+            </div>
+            <div class="bigspacer"></div>
+
+			{% if page.supplement %}
+			<div class="smallhead subtle">
+				Supplement
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="far fa-paperclip fa-fw"></i>
+				<a class="off" href="{{ page.supplement }}">{{ page.supplement | split: '/' | last }}</a>
+			</div>
+			<div class="bigspacer"></div>
+			{% endif %}
+
+			{% if page.pmid %}
+			<div class="smallhead subtle">
+				Pubmed
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fas fa-external-link fa-fw"></i>
+				<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
+			</div>
+			<div class="bigspacer"></div>
+			{% endif %}
+
+			{% if page.github %}
+			<div class="smallhead subtle">
+				Source code
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fas fa-cog fa-fw"></i>
+				<a class="off" href="{{ page.github }}">{{ page.github | remove: 'http://' | remove: 'https://' }}</a>
+			</div>
+			<div class="bigspacer"></div>
+			{% endif %}
+			{% if page.dryad_doi or page.figshare or page.zenodo %}
+			<div class="smallhead subtle">
+				Data
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fas fa-database fa-fw"></i>
+                {% if page.dryad_doi %}
+                <a class="off" href="https://doi.org/{{ page.dryad_doi }}">Dryad</a>
+                {% endif %}
+                {% if page.figshare %}
+                <a class="off" href="https://doi.org/{{ page.figshare }}">Figshare</a>
+                {% endif %}
+                {% if page.zenodo %}
+                <a class="off" href="https://doi.org/{{ page.zenodo }}">Zenodo</a>
+                {% endif %}
+			</div>
+			<div class="bigspacer"></div>
+			{% endif %}
+			{% if page.altmetric_id or page.doi %}
+			<div class="smallhead subtle">
+				Altmetrics
+			</div>
+			<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+            {% if page.altmetric_id %}
+			<div class="altmetric-embed" data-badge-popover="right" data-doi={{ page.doi }} data-badge-type="donut" data-altmetric-id={{ page.altmetric_id }} data-hide-no-mentions="true">
+            {% else %}
+            <div class="altmetric-embed" data-badge-popover="right" data-doi={{ page.doi }} data-badge-type="donut" data-hide-no-mentions="true">
+            {% endif %}
+			</div>
+			<div class="bigspacer"></div>
+			{% endif %}
+			<div class="smallhead subtle">
+				Share
+			</div>
+		    <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+		    <div class="post-sharing">
+		     {% include JB/sharing %}
+            </div>
+
+		</div>
+	</div>
+	{% if page.embargo %}
+	<div class="col-md-8">
+		<div class="post">
+		In press... watch this space!
+		</div>
+	</div>
+	{% else %}
+	<div class="col-md-8">
+		<div class="post">
+			{{ content }}
+		</div>
+        <div class="post">
+            <h1 id="bibte">BibTeX</h1>
+            <pre> {{ page.bibtex }} </pre>
+        </div
+	</div>
+	{% endif %}
+
+	<div class="col-md-1"></div>
+</div>
+
+<div class="bigspacer"></div>

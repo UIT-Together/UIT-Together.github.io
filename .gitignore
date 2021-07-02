@@ -1,1 +1,10 @@
-_build/
+_theme_packages/*
+
+Gemfile.lock
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
