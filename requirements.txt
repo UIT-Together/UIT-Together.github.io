@@ -1,9 +1,0 @@
-sphinx
-recommonmark
-sphinx-markdown-tables
-sphinxcontrib-bibtex
-sphinx-jinja
-sphinx-panels
-ablog
-pydata-sphinx-theme
-myst-parser

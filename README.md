@@ -1,35 +1,75 @@
-# Rose Research Group Website
+<h1 align="center">Lab Website Template</h1>
+<p align="center">
+<img height="200" src="https://raw.githubusercontent.com/greenelab/lab-website-template/main/favicons/share-thumbnail.jpg?raw=true" alt="Lab Website Template">
+</p>
+An easy-to-use, flexible website template for labs, including automatic citations, GitHub tag imports, pre-built components, and more.
+Spend less time reinventing the wheel and more time running your lab.
 
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/brian-rose/brian-rose.github.io/deploy-site/main?logo=github&style=for-the-badge)
+#### 🔔 Still in pre-release/preview. We need testers! 🔔
 
-Sphinx source for the website currently deployed simultaneously in two different places:
--  <http://www.atmos.albany.edu/facstaff/brose/>
-- <https://brian-rose.github.io>
+Please help us out!
+How easy is the template to use?
+How flexible is it?
+How's our documentation?
 
-## How it works
+## Gallery
 
-The static site is built automatically using GitHub Actions and deployed to https://brian-rose.github.io.
-To see how this works, look at `.github/workflows/deploy.yaml` in the source repository.
-To mimic this workflow in another repository, note that you need to enable GitHub Pages
-for your repo (Setting --> Options --> GitHub Pages).
+<kbd>
+  <a href="https://user-images.githubusercontent.com/8326331/112500343-acc58480-8d5e-11eb-9795-9592625872fc.png">
+    <img src="https://user-images.githubusercontent.com/8326331/112500343-acc58480-8d5e-11eb-9795-9592625872fc.png" height="150px" alt="Screenshot" />
+  </a>
+</kbd>
 
+<kbd>
+  <a href="https://greenelab.github.io/lab-website-template/">
+    <img src="https://raw.githubusercontent.com/greenelab/lab-website-template/main/favicons/share-thumbnail.jpg?raw=true" height="150px" alt="Lab Website Template" />
+  </a>
+</kbd>
 
-## How to make changes to the site
+<kbd>
+  <a href="https://greenelab.com/">
+    <img src="https://greenelab.com/favicons/share-thumbnail.jpg" height="150px" alt="GreeneLab.com" />
+  </a>
+</kbd>
 
-Rose group members and collaborators are welcome to open Pull Requests with proposed changes. PRs are automatically rendered on readthedocs.org for viewing changes. Select the `Show all checks` link in the PR discussion to reveal the link to `readthedocs.org`. If something doesn't look right, make changes and push to the same branch from where you opened the PR and they will be re-rendered.
+more coming soon...
 
-Note that the [people page](https://brian-rose.github.io/people.html) is generated at build time from data in the file [_data/people.yml](https://github.com/brian-rose/brian-rose.github.io/blob/main/_data/people.yml). Add yourself and edit your details through this file. Add your headshot image to [_static/images](https://github.com/brian-rose/brian-rose.github.io/tree/main/_static/images). I also encourage everyone to add their preferred pronouns.
+## Features
 
+- **Automatically generated citations** (using [Manubot](https://manubot.org)) from **just an identifier** (DOI, PubMed ID, and many more)
+- Automatically pull in and display tags from GitHub repositories
+- Works and looks good on all major desktop and mobile browsers
+- A suite of pre-built components:
+  - formatted tables and code blocks
+  - social media links with icons
+  - figures with captions
+  - image galleries
+  - multi-size cards with image and text
+  - citations
+  - ...[and more](https://github.com/greenelab/lab-website-template/wiki/Components)!
+- A **home page**, where you can highlight the most important things that make your lab special
+- A **research page**, with a sorted, searchable list of all your published works
+- A **tools page**, where you can show off your software, datasets, or other useful things
+- A **team** page, compiled automatically from individual members
+- Individual **team member pages** with bios, assignable roles, and social media links
+- A **blog page**, with a sorted, grouped, tagged list of all your posts
 
-## How to build the site locally
+## Documentation
 
-You can also built the static site manually by installing sphinx and all dependencies in a python environment. For example, from the source repository:
-```
-pip install -r requirements.txt
-make html
-```
+[▶️ Get Started](https://github.com/greenelab/lab-website-template/wiki/Get-Started)
 
-You can now view the built site in your web browser with
-```
-open _build/html/index.html
-```
+[🗚 Basic Formatting](https://github.com/greenelab/lab-website-template/wiki/Basic-Formatting)
+
+[📝 Basic Editing](https://github.com/greenelab/lab-website-template/wiki/Basic-Editing)
+
+[🤖 Automatic Citations](https://github.com/greenelab/lab-website-template/wiki/Automatic-Citations)
+
+[⚙️ Advanced Editing](https://github.com/greenelab/lab-website-template/wiki/Advanced-Editing)
+
+[🧱 Components](https://github.com/greenelab/lab-website-template/wiki/Components)
+
+[🧠 Background Knowledge](https://github.com/greenelab/lab-website-template/wiki/Background-Knowledge)
+
+[💡 Tips](https://github.com/greenelab/lab-website-template/wiki/Tips)
+
+[❓ Support](https://github.com/greenelab/lab-website-template/wiki/Support)
