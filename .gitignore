@@ -1,7 +1,1 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-debug.log
-__pycache__/
+_build/
