@@ -60,7 +60,26 @@
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
     -->
-
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      </style>
   </head>
 
   <body>
@@ -452,10 +471,11 @@
     text-align: center;
 }
 </style>
-
+<!-- Trúc Đang Làm -->
 <h1>k2015</h1>
 <div class="row mb-3"> <!-- opening of a new row -->
-    <div class="col-sm studentbox">
+   <div class="row"> 
+    <div class="column">
         <div class="media">
             <a class="pull-left" href="/team/diba-behnoudfar">
             <div class="fix-size">
@@ -468,7 +488,7 @@
         </div>
     </div>
     
-    <div class="col-sm studentbox">
+    <div class="column">
         <div class="media">
             <a class="pull-left" href="/team/jackson-morgan">
 
@@ -483,8 +503,8 @@
             <div class="media-body"></div>
         </div>
     </div>
-
-    <div class="col-sm studentbox">
+  </div>
+    <div class="column col-sm studentbox">
         <div class="media">
             <a class="pull-left" href="/team/jayani-jayasuriya">
               <div class="fix-size">
@@ -498,61 +518,61 @@
         </div>
     </div>
 
-  <div class="col-sm studentbox">
+    <div class="column col-sm studentbox">
+        <div class="media">
+            <a class="pull-left" href="/team/diba-behnoudfar">
+              <div class="fix-size">
+                <figure>
+                  <img class="media-object member-photo px-2" src="/assets/images/team/k2015/phat_c_nguyen.jpg">
+                  <figcaption><div class="head media-heading member-name"><a href="/team/diba-behnoudfar" class="off">Phat C. Nguyen</a></div></figcaption>
+                </figure>
+              </div>
+            </a>
+            <div class="media-body"></div>
+        </div>
+    </div>
+
+    <div class="column col-sm studentbox">
       <div class="media">
           <a class="pull-left" href="/team/diba-behnoudfar">
             <div class="fix-size">
               <figure>
-                <img class="media-object member-photo px-2" src="/assets/images/team/k2015/phat_c_nguyen.jpg">
-                <figcaption><div class="head media-heading member-name"><a href="/team/diba-behnoudfar" class="off">Phat C. Nguyen</a></div></figcaption>
+                <img class="media-object member-photo px-2" src="/assets/images/team/k2015/thinh_hua.jpg">
+                <figcaption><div class="head media-heading member-name"><a href="/team/diba-behnoudfar" class="off">Thinh Hua</a></div></figcaption>
               </figure>
             </div>
           </a>
           <div class="media-body"></div>
       </div>
-  </div>
-
-  <div class="col-sm studentbox">
-    <div class="media">
-        <a class="pull-left" href="/team/diba-behnoudfar">
-          <div class="fix-size">
-            <figure>
-              <img class="media-object member-photo px-2" src="/assets/images/team/k2015/thinh_hua.jpg">
-              <figcaption><div class="head media-heading member-name"><a href="/team/diba-behnoudfar" class="off">Thinh Hua</a></div></figcaption>
-            </figure>
-          </div>
-        </a>
-        <div class="media-body"></div>
     </div>
-  </div>
 
-  <div class="col-sm studentbox">
-    <div class="media">
-        <a class="pull-left" href="/team/diba-behnoudfar">
-          <div class="fix-size">
-            <figure>
-              <img class="media-object member-photo px-2" src="/assets/images/team/k2015/hao_nguyen.jpg">
-              <figcaption><div class="head media-heading member-name"><a href="/team/diba-behnoudfar" class="off">Hao Nguyen</a></div></figcaption>
-            </figure>
-          </div>
-        </a>
-        <div class="media-body"></div>
+    <div class="column col-sm studentbox">
+      <div class="media">
+          <a class="pull-left" href="/team/diba-behnoudfar">
+            <div class="fix-size">
+              <figure>
+                <img class="media-object member-photo px-2" src="/assets/images/team/k2015/hao_nguyen.jpg">
+                <figcaption><div class="head media-heading member-name"><a href="/team/diba-behnoudfar" class="off">Hao Nguyen</a></div></figcaption>
+              </figure>
+            </div>
+          </a>
+          <div class="media-body"></div>
+      </div>
     </div>
-  </div>
 
-  <div class="col-sm studentbox">
-    <div class="media">
-        <a class="pull-left" href="/team/diba-behnoudfar">
-          <div class="fix-size">
-            <figure>
-              <img class="media-object member-photo px-2" src="/assets/images/team/k2015/di_vo.jpg">
-              <figcaption><div class="head media-heading member-name"><a href="/team/diba-behnoudfar" class="off">Di Vo</a></div></figcaption>
-            </figure>
-          </div>
-        </a>
-        <div class="media-body"></div>
+    <div class="column col-sm studentbox">
+      <div class="media">
+          <a class="pull-left" href="/team/diba-behnoudfar">
+            <div class="fix-size">
+              <figure>
+                <img class="media-object member-photo px-2" src="/assets/images/team/k2015/di_vo.jpg">
+                <figcaption><div class="head media-heading member-name"><a href="/team/diba-behnoudfar" class="off">Di Vo</a></div></figcaption>
+              </figure>
+            </div>
+          </a>
+          <div class="media-body"></div>
+      </div>
     </div>
-  </div>
   
 </div> <!-- closing a row -->
 
