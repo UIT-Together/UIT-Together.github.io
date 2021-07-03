@@ -93,7 +93,8 @@ a.off {
   vertical-align: middle; }
 
 .big-member-photo {
-  max-width: 300px; }
+/* max-width: 300px; */
+max-width: 225px; }
 
 .member-photo {
   height: 20vw;
