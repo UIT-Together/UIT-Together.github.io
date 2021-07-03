@@ -104,6 +104,11 @@ max-width: 225px; }
 .member-name {
   font-size: 20px; }
 
+.student-name {
+  font-size: 12px;
+  text-align: center;
+}
+
 @media all and (max-width: 800) {
   .member-name {
     font-size: 16px; } }
