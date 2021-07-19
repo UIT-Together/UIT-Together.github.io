@@ -19,11 +19,11 @@ Harassment includes offensive verbal comments related to gender, gender identity
 
 Group members asked to stop any harassing behavior are expected to comply immediately.
 
-If a member engages in harassing behavior, other group members and Kyle Niemeyer may take any action they deem appropriate to stop this behavior, including warning the offender or expulsion from the group and sanctioning through official Oregon State University channels.
+If a member engages in harassing behavior, other group members and Kyle Niemeyer may take any action they deem appropriate to stop this behavior, including warning the offender or expulsion from the group and sanctioning through official Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City channels.
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact Kyle Niemeyer immediately. Kyle is available to help group members contact security or local law enforcement, navigate official University reporting channels, or otherwise assist those experiencing harassment to feel safe in the research environment.
 
-If Kyle is the cause of the concern or you would prefer he not be involved, official concerns can be addressed by contacting [Nicole Thompson](mailto:Nicole.Thompson@oregonstate.edu) or [Harriet Nembhard](mailto:harriet.nembhard@oregonstate.edu) in the School of MIME, or the [Oregon State University Equal Opportunity and Access office](http://eoa.oregonstate.edu).
+If Kyle is the cause of the concern or you would prefer he not be involved, official concerns can be addressed by contacting [Nicole Thompson](mailto:Nicole.Thompson@oregonstate.edu) or [Harriet Nembhard](mailto:harriet.nembhard@oregonstate.edu) in the School of MIME, or the [Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City Equal Opportunity and Access office](http://eoa.oregonstate.edu).
 
 We expect research group members to follow these rules in all professional settings including the office, conferences, workshop venues, and group-related social events. We additionally expect members to treat each other professionally with respect to their work and workspaces, with constructive criticism, without dismissive behavior, and without disruption of shared working spaces.
 

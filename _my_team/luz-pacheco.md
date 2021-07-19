@@ -14,5 +14,5 @@ alum: true
 Luz graduated with her MS in Mechanical Engineering, studying turbulence-chemistry interactions in the ocean.
 
 
-[Oregon State University]: http://oregonstate.edu/
-[School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
+[Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
+[Room E5.1, Block E, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu

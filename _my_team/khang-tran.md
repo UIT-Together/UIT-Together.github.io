@@ -18,6 +18,6 @@ Khang graduated from the University of Portland, where he took part in a researc
 Khang is co-advised by [Prof. Christopher Hagen](http://osucascades.edu/energy-systems-lab/dr-christopher-hagen) in the [Energy Systems Lab].
 
 
-[Oregon State University]: http://oregonstate.edu/
-[School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
+[Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
+[Room E5.1, Block E, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu
 [Energy Systems Lab]: http://osucascades.edu/energy-systems-lab/

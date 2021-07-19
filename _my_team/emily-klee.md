@@ -15,5 +15,5 @@ alum: false
 Emily is a PhD student studying the interactions of ocean turbulence on biogeochemical tracers. She received her Bachelors degree in Environmental Resources Engineering from Humboldt State.
 
 
-[Oregon State University]: http://oregonstate.edu/
-[School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
+[Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
+[Room E5.1, Block E, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu

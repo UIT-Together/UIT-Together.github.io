@@ -13,4 +13,4 @@ alum: false
 ---
 Morgan is an undergraduate Chemical Engineering student working on collecting and standardizing experimental combustion data for validating and improving chemical kinetic models.
 
-[Oregon State University]: http://oregonstate.edu/
+[Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/

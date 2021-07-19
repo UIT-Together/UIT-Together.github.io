@@ -19,5 +19,5 @@ Chris graduated with his MS in Mechanical Engineering in December 2016. His rese
 
 Current position: Algorithm development engineer, for advanced driver's assistance systems, at Continental AG.
 
-[Oregon State University]: http://oregonstate.edu/
-[School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
+[Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
+[Room E5.1, Block E, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu

@@ -18,6 +18,6 @@ Shane graduated with his PhD in Mechanical Engineering, working with the [Energy
 <i class="fas fa-book" aria-hidden="true"></i> MS thesis: [Chemometrics-based Approach for Predicting Low Temperature Combustion Engine Fuel Performance](https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/5h73q168t)
 
 
-[Oregon State University]: http://oregonstate.edu/
-[School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
+[Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
+[Room E5.1, Block E, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu
 [Energy Systems Lab]: http://osucascades.edu/energy-systems-lab/

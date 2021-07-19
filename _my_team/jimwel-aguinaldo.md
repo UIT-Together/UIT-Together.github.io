@@ -11,8 +11,8 @@ cv:
 alum: true
 ---
 
-Jimwel is currently an Undergraduate student studying Computer Science (Computer Systems option) at [Oregon State University]. He is a recipient the [URSA Engage] award and is working with Cantera, an open-source software tool for chemical kinetics.
+Jimwel is currently an Undergraduate student studying Computer Science (Computer Systems option) at [Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]. He is a recipient the [URSA Engage] award and is working with Cantera, an open-source software tool for chemical kinetics.
 
-[Oregon State University]: http://oregonstate.edu/
-[School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
+[Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
+[Room E5.1, Block E, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu
 [URSA Engage]: http://undergraduate.oregonstate.edu/research/funding-opportunities/ursa-engage

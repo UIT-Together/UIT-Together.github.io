@@ -11,9 +11,9 @@ image: /assets/images/team/ben-howorth.jpg
 cv:
 alum: false
 ---
-Ben graduated Oregon State University with a BS in Physics and an MBA in Innovation Management.
+Ben graduated Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City with a BS in Physics and an MBA in Innovation Management.
 He's now working as an Applications Engineer with HP 3D Materials, and pursuing an MS around particle dynamics
 
 
-[Oregon State University]: http://oregonstate.edu/
-[School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
+[Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
+[Room E5.1, Block E, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu

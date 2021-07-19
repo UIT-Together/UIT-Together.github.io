@@ -14,7 +14,7 @@ alum: false
 ---
 
 ## Short Bio
-Kyle E. Niemeyer is an Assistant Professor at the [Oregon State University] in the [School of Mechanical, Industrial, and Manufacturing Engineering]. He leads the Niemeyer Research Group, which uses computational modeling to study various phenomena involving fluid flows, including combustion and chemical kinetics, and related topics like numerical methods and parallel computing. He is also interested in open access, open source, and open science in general, and has contributed in the area of standardizing research software citation. Kyle received his Ph.D. in Mechanical Engineering from [Case Western Reserve University] in 2013, working with Jackie Sung and the [Combustion Diagnostics Laboratory] (now at the University of Connecticut). He received BS and MS degrees in Aerospace Engineering from [Case Western Reserve University] in 2009 and 2010, respectively.
+Kyle E. Niemeyer is an Assistant Professor at the [Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City] in the [Room E5.1, Block E, University of Information Technology, VNU-HCM]. He leads the Niemeyer Research Group, which uses computational modeling to study various phenomena involving fluid flows, including combustion and chemical kinetics, and related topics like numerical methods and parallel computing. He is also interested in open access, open source, and open science in general, and has contributed in the area of standardizing research software citation. Kyle received his Ph.D. in Mechanical Engineering from [Case Western Reserve University] in 2013, working with Jackie Sung and the [Combustion Diagnostics Laboratory] (now at the University of Connecticut). He received BS and MS degrees in Aerospace Engineering from [Case Western Reserve University] in 2009 and 2010, respectively.
 
 ## Academic Lineage
 
@@ -27,7 +27,7 @@ My full academic lineage can be found at my [Mathematics Genealogy Project profi
  - Farrington Daniels, Ph.D., and Theodore von Kármán, Dr. phil.; the latter was advised by
  - Ludwig Prandtl.
 
-[Oregon State University]: http://oregonstate.edu/
-[School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
+[Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
+[Room E5.1, Block E, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu
 [Case Western Reserve University]: https://case.edu
 [Combustion Diagnostics Laboratory]: http://combdiaglab.engr.uconn.edu

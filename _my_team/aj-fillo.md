@@ -15,7 +15,7 @@ homepage: https://aaronfillo.github.io/
 ---
 AJ is a PhD candidate studying turbulent premixed combustion using experiments (previous) and direct numerical simulations (current).
 
-AJ is a recipient of the NSF Graduate Research Fellowship. He received his MS in Mechanical Engineering from [Oregon State University] working with [Prof. David Blunck](http://research.engr.oregonstate.edu/blunckgroup/).
+AJ is a recipient of the NSF Graduate Research Fellowship. He received his MS in Mechanical Engineering from [Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City] working with [Prof. David Blunck](http://research.engr.oregonstate.edu/blunckgroup/).
 
 <i class="fas fa-home" aria-hidden="true"></i> Homepage: <https://aaronfillo.github.io/>
 
@@ -27,6 +27,6 @@ AJ is a recipient of the NSF Graduate Research Fellowship. He received his MS in
 <iframe src="https://www.youtube.com/embed/H96Xr0Efelk" allowfullscreen></iframe>
 </div>
 
-[Oregon State University]: http://oregonstate.edu/
-[School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
+[Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
+[Room E5.1, Block E, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu
 [Lib Lab]: http://www.liblabscience.com

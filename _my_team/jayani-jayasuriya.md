@@ -11,8 +11,8 @@ image: /assets/images/team/jayani-jayasuriya.jpg
 cv:
 alum: false
 ---
-Jayani is a PhD student doing research in the areas of fire and smoldering combustion. She received her Bachelors degree in Mechanical Engineering from University of Moratuwa and worked as a Sustainability Engineer in Sri Lanka before joining [Oregon State University].
+Jayani is a PhD student doing research in the areas of fire and smoldering combustion. She received her Bachelors degree in Mechanical Engineering from University of Moratuwa and worked as a Sustainability Engineer in Sri Lanka before joining [Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City].
 
 
-[Oregon State University]: http://oregonstate.edu/
-[School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
+[Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
+[Room E5.1, Block E, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu

@@ -16,5 +16,5 @@ alum: false
 Matt is an MS student studying coupled detonation and magnetohydrodynamics (MHD). He is co-advised by Prof. David Blunck in the [CIRE Lab](http://research.engr.oregonstate.edu/blunckgroup/home).
 
 
-[Oregon State University]: http://oregonstate.edu/
-[School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
+[Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
+[Room E5.1, Block E, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu

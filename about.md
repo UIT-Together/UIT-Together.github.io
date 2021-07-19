@@ -24,7 +24,7 @@ Corvallis, OR 97331-6001
 
 I am currently recruiting PhD students with interests in computational modeling and numerical methods for fluid dynamics and combustion. Competitive candidates will possess strong computer programming skills and experience in command-line/UNIX systems and parallel computing. You can see more about my [primary research areas](/projects/), but I'm also open to other related areas.
 
-Please refer to [available information](http://mime.oregonstate.edu/school-mime-graduate-school-admissions-faq) about applying to the [School of MIME]'s graduate program. Note that the yearly deadline to be fully considered is **January 15**.
+Please refer to [available information](https://www.uit.edu.vn/school-mime-graduate-school-admissions-faq) about applying to the [School of MIME]'s graduate program. Note that the yearly deadline to be fully considered is **January 15**.
 
 I am also happy to talk to postdoctoral candidates, and undergraduate students interested in research are always welcome.
 
@@ -44,4 +44,4 @@ This site's source code is freely available on [GitHub] under the MIT license, a
 [Drummond Lab template]: http://drummondlab.org/about.html
 [GitHub Pages]: https://pages.github.com/
 [GitHub]: https://github.com/Niemeyer-Research-Group/niemeyer-research-group.github.io
-[School of MIME]: http://mime.oregonstate.edu/
+[School of MIME]: https://www.uit.edu.vn/

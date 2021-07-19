@@ -13,4 +13,4 @@ alum: true
 ---
 Kenny was an undergraduate student in the BioResource Research/Bioenergy program studying smoldering combustion.
 
-[Oregon State University]: http://oregonstate.edu/
+[Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
