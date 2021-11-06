@@ -16,4 +16,4 @@ Andrew is an MS student studying the stiffness of chemical kinetics, and methods
 <i class="fas fa-book" aria-hidden="true"></i> MS thesis: [Evaluating Stiffness Metrics for Predicting the Cost of Chemical Kinetics Integration](http://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/6d570268k)
 
 [Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
-[Room E5.1, Block E, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu
+[Room A108, Block A, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu

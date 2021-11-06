@@ -15,4 +15,4 @@ Jayani is a PhD student doing research in the areas of fire and smoldering combu
 
 
 [Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City]: http://oregonstate.edu/
-[Room E5.1, Block E, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu
+[Room A108, Block A, University of Information Technology, VNU-HCM]: http://mime.oregonstate.edu
