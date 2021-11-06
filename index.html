@@ -186,7 +186,28 @@
 	  display: table;
 	  clear: both;
 	}
-	</style>
+
+	/* width */
+	::-webkit-scrollbar {
+	width: 5px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+	}
+	
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+	background: #888; 
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+	}
+
+</style>
 
 <div class="row">
 	<div class="column">
@@ -194,7 +215,7 @@
 			<a class="off" href="/news/">Notifications</a>
 		</div>
 		<div class="bigspacer"></div>
-		<div class="feedbox pad-left"  style = " margin-right: 30px;">
+		<div class="feedbox pad-left"  style = " margin-right: 30px; height: 650px; overflow: auto;">
 			<div class="note-title">
 				<i class="fas fa-bullhorn fa-fw"></i>
 				<a class="off" style = "font-family: 'Montserrat';font-weight: 500;font-size: 15px; font-weight:700;" href="https://github.com/nguyenvd-uit/uit-together-dataset/blob/main/UIT-CVID21.md">
@@ -325,82 +346,34 @@ about his second internship with Google!</p>
 		</div>
 		<div class="bigspacer"></div>
 	</div>
-	<!-- <div class="col-md-4">
-		<div class="head">
-			<a class="off" href="https://medium.com/nrg-excitations">Posts</a>
-		</div>
-		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">
-      
-
-				<div class="note-title">
-					<i class="far fa-comment fa-fw"></i>
-					<a class="off" href="https://medium.com/nrg-excitations/my-plan-to-address-systemic-racism-in-stem-and-my-units-fa61d07264b3?source=rss----59f80c3f9111---4">
-					My plan to address systemic racism in STEM and my units
-					</a>
-				</div>
-				<div class="smallspacer"></div>
-				<div class="smallnote">
-					Posted 17 Jun 2020
-				</div>
-				<div class="spacer"></div>
-				<div class="spacer"></div>
-			
-
-				<div class="note-title">
-					<i class="far fa-comment fa-fw"></i>
-					<a class="off" href="https://medium.com/nrg-excitations/response-to-ongoing-police-violence-against-black-americans-3744f7f36746?source=rss----59f80c3f9111---4">
-					Response to ongoing police violence against Black Americans
-					</a>
-				</div>
-				<div class="smallspacer"></div>
-				<div class="smallnote">
-					Posted 04 Jun 2020
-				</div>
-				<div class="spacer"></div>
-				<div class="spacer"></div>
-			
-
-				<div class="note-title">
-					<i class="far fa-comment fa-fw"></i>
-					<a class="off" href="https://medium.com/nrg-excitations/new-nsf-grants-to-support-research-in-oceanography-and-cantera-software-development-f2310f6b6404?source=rss----59f80c3f9111---4">
-					New NSF grants to support research in oceanography and Cantera software development
-					</a>
-				</div>
-				<div class="smallspacer"></div>
-				<div class="smallnote">
-					Posted 07 Jan 2020
-				</div>
-				<div class="spacer"></div>
-				<div class="spacer"></div>
-			
-
-				<div class="note-title">
-					<i class="far fa-comment fa-fw"></i>
-					<a class="off" href="https://medium.com/nrg-excitations/nrg-at-the-11th-us-national-combustion-meeting-ea62b04a685a?source=rss----59f80c3f9111---4">
-					NRG at the 11th US National Combustion Meeting!
-					</a>
-				</div>
-				<div class="smallspacer"></div>
-				<div class="smallnote">
-					Posted 07 Jan 2020
-				</div>
-				<div class="spacer"></div>
-				<div class="spacer"></div>
-			
-		</div>
-		<div class="bigspacer"></div>
-	</div> -->
+	
 	<div class="column">
 		<div class="head">
 			<a class="off" href="/papers/">New papers
 			</a>
 		</div>
-
 		
 		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">
+		<div class="feedbox pad-left" style="height: 650px; overflow: auto;">
 
+				<div class="note-title">
+					<i class="far fa-file-alt fa-fw"></i>
+					<a class="off" style = "font-family: 'Montserrat';font-weight: 500;font-size: 15px; font-weight:700;" href="#">
+						CDeRSNet: Towards High Performance Object Detection in Vietnamese Documents Images
+					</a>
+					<br/>
+					<div class='shortref note' style = "font-family: 'Montserrat';font-weight: 500;font-size: 14px;">
+						Thuan Trong Nguyen, Thuan Q. Nguyen, Long Duong, Nguyen D. Vo, Khang Nguyen, International Conference on Multimedia Modelling (MMM), 2022
+					</div>
+				</div>
+				<div class="smallspacer"></div>
+				<div class="smallnote" style = "font-family: 'Montserrat';font-weight: 500;font-size: 12px;">
+					Accepted 
+					01 Nov 2021
+				</div>
+				<div class="spacer"></div>
+				<div class="spacer"></div>
+			
 				<div class="note-title">
 					<i class="far fa-file-alt fa-fw"></i>
 					<a class="off" style = "font-family: 'Montserrat';font-weight: 500;font-size: 15px; font-weight:700;" href="#">
