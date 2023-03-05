@@ -96,7 +96,7 @@
                 <a class="nav-link" href="/papers/">Papers</a>
               </li>
 
-<li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link" href="/datasets/">Datasets</a>
               </li>
 
@@ -115,38 +115,21 @@
   <div class="container">
     
 
-    <h1 id="uit-anomaly">UIT-Anomaly</h1>
-    <p>Author: <em>Dung Vo, Tung Minh Tran, Nguyen D. Vo and Khang Nguyen</em></p>
-    <p>Paper: <em>UIT-Anomaly: A Modern Vietnamese Video Dataset for Anomaly Detection, NICS2021</em></p>
+    <h1 id="uit-anomaly">UIT-ADrone</h1>    
     <p>Organization: <em>UIT-Together</em></p>
-    <p>Registering to use UIT-Anomaly: [<a href="https://forms.gle/uWaVkwF71AZcaaYG8">Link</a>]</p>
-    <p><img src="https://i.imgur.com/MsmPVCr.png" alt=""></p>
-    <p>Some samples of six anomalous activities in UIT-Anomaly dataset.</p>
-    <h2 id="selecting-anomaly-categories">Selecting Anomaly Categories</h2>
-    <p>As far as we know, it is difficult to completely define anomalous behavior because there are a lot of aspects and different presentations in the realword, we clearly describe anomalous activities to minimize the ambiguity in creating fundamental truth. To mitigate the above issues, we consider the six following anomaly classes: Stealing, Traffic Accident, Fighting, Unsporting Behavior, and Against. We are interested in these anomalies because they have distinct features in Vietnam.</p>
-    <h2 id="video-collection">Video Collection</h2>
-    <p>We collect videos from Youtube by using keywords like “street violence”, “street stealing”, “marital combat”, “dog thief” and other words that have a similar meaning with each type of anomaly. With the normal behavior, we search for “security camera at school”, “CCTV at street”, “CCTV at home”, etc. Anomalous behavior in Vietnam is not captured by CCTV much, so we also collect other videos captured by smartphones, car black boxes. However, the number of videos captured by CCTV still accounts for the majority and is completely shot from real events.</p>
-    <h2 id="video-cleaning">Video Cleaning</h2>
-    <p>As a rule of the original regulation, we only use videos that they have not manually edited, so our annotator team checks each video to make sure. The number of videos that satisfy the regulation is not enough to decide to keep the original videos or the edited videos but they are still intact. After that, we re-edit videos by deleting borders, changing video speed to normal, etc., intending to make the video as close to the original as possible. Furthermore, we also remove videos with excessive modifications or videos with unclear anomalies.</p>
-    <h2 id="video-annotation">Video Annotation</h2>
-    <p>Our dataset is annotated based on the weakly supervised approach so the training set just needs annotating at video-level. In addition, frame-level of the testing set is also annotated to evaluate the performance of the methods on the testing phase, that is, to confirm the start and end frames of anomalous activities. The dataset is finally accomplished after intense efforts over several months.</p>
-    <h2 id="dataset-statistics">Dataset Statistics</h2>
-    <p>The UIT-Anomaly dataset includes a total of 224 muted videos captured at a frame rate of 30 fps with various resolutions. It has 104 normal and 120 anomalous videos. The total duration is more than 200 minutes, corresponding to 392,188 frames. We divide these videos into two subsets: the training set included 90 abnormal and 90 normal videos, while the test set consisted of the remaining 30 abnormal and the remaining 14 normal videos. Both training and test sets contain six classes of anomalies. UIT-Anomaly has the following highlights:</p>
-    <ul>
-    <li>Data size: Compared to other datasets for the anomaly detection problem, UIT-Anomaly can be considered as a sizable dataset with a total duration of more than 200 minutes, containing 314,843 training frames and 77,345 testing frames.</li>
-    <li>Vietnamese context: UIT-Anomaly is the first dataset containing many typical Vietnamese contexts. Most of the benchmark datasets currently available were shot in China (CHUK Avenue, UCSD Ped 1, UCSD Ped 2, ShanghaiTech) or from Western countries (Subway dataset, UMN) or other countries (UCF-Crime).</li>
-    <li>Variety of backgrounds: UIT-Anomaly is not only diversified in terms of the number of unusual types, but also in terms of the range of contexts, with 18 scenes including the road, the private home, the parking area, and more in a variety of weather, lighting, and camera angles. This makes our dataset more realistic, but it also brings obstacles when tackling the problem of anomaly detection in complicated contexts.</li>
-    </ul>
+    <p>Registering to use UIT-ADrone: [<a href="https://forms.gle/uWaVkwF71AZcaaYG8">Link</a>]</p>
+    <p><img src="datasets/UIT-ADrone/demo.jpg" alt=""></p>
+    <p>Visualization of traffic scenes included in the UIT-ADrone (Ours) dataset.</p>
+    <h2 id="DataAcquisition">1. Data Acquisition</h2>
+    <p>We have conducted videos captured by the aerial perspective with a camera to collect practical traffic data for detecting traffic abnormalities in Hochiminh city, Vietnam. The used drone is a DJI MAVIC MINI 2, recording at 30 frames per second (fps), with a resolution of 920 x1080 pixels ranging from 50 to 70 meters in height at different times of the day. More specifically, the videos of the drone are recorded at two roundabouts on the campus of the Vietnam National University, Ho Chi Minh City, and at one public roundabout in Ho Chi Minh City. Note that the public roundabout has an especially high traffic volume, with a variety of motorbikes on the streets.</p>
+    <h2 id="DatasetStatistics">2. Dataset Statistics</h2>
+    <p>The UIT-ADrone dataset consists of 51 videos with a total of 206,194 extracted video frames covering various anomalous events. The entire video is approximately 6.50 hours long, recorded in complex real-world scenarios, and they pose significant new challenges, such as complex scenes, high density, occlusion of moving objects, lighting conditions, small objects, and large camera motion. Furthermore, it contains ten abnormal events related to various types of violations of regulations, including crossing the road at the wrong lane, walking under the street, driving in the wrong roundabout, illegally driving on the sidewalk, illegal left turn/ turn right, illegally parking in the street, carrying bulky goods, parking on the sidewalk, driving in the opposite directions, and falling off motorcycles.</p>
+    <h2 id="video-cleaning">3.	Annotation</h2>
+    <p>To generate ground-truth data for the purpose of evaluating different models to detect traffic anomalies, we use a tool called Supervisely assign frame-level labels. This tool is browser-based and supports advanced functions, such as drawing a bounding box or tracking the objects of interest in a video drone. Since the frames we label are sequential at a frame rate of 30 fps, and the position of objects of interest changes little from frame to frame, Supervisely is an easy-to-use tool for annotating challenge data. In addition, the UIT-ADrone dataset comprises bounding boxes for the training and testing set for object detection, following the format of the MS COCO dataset, which is standard for object detection. Therefore, our dataset contains train.json and test.json for the training and testing set, respectively. For anomaly detection, testing labels are organized as arrays (.npy). It means the video is equal to the array. The indexes for frames start at 0 and end at a total of frames subtraction of 1. Each element in the array is set to 0 as normal or 1 as abnormal. Notably, only normal data are available in the training step for these unsupervised tasks in our study. Additionally, we also carry out cross-checking between annotators to check for error labels based on the consensus of annotators.</p>
+    
     <h2 id="citation">Citation</h2>
     <p>If the project helps your research, please cite this paper.</p>
-    <pre><code>@inproceedings{vo2021uit,
-      <span class="hljs-attr">title={UIT-Anomaly:</span> A Modern Vietnamese Video Dataset for Anomaly Detection},
-      <span class="hljs-attr">author={Vo,</span> Dung TT <span class="hljs-literal">and</span> Tran, Tung Minh <span class="hljs-literal">and</span> Vo, Nguyen D <span class="hljs-literal">and</span> Nguyen, Khang},
-      <span class="hljs-attr">booktitle={2021</span> <span class="hljs-number">8</span>th NAFOSTED Conference on Information <span class="hljs-literal">and</span> Computer Science (NICS)},
-      <span class="hljs-attr">pages={352--357},</span>
-      <span class="hljs-attr">year={2021},</span>
-      <span class="hljs-attr">organization={IEEE}</span>
-    }
+    <pre><code>@inproceedings{}
     </code></pre>
 </div>
 
